@@ -1,0 +1,47 @@
+.container{
+    max-width: 100%;
+    border: 2px solid rgb(241, 238, 238);
+    padding:8px;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgb(241, 238, 238);
+}
+
+.topicName{
+    font-weight: bold;
+    padding: 12px 12px 4px 12px;
+}
+
+.keywords{
+    padding: 4px 12px 4px 12px;
+    display: flex;
+}
+
+.keyword{
+    font-weight: bold;
+    margin-left: 8px;
+    color:orangered;
+    border-radius:8px;
+    border: 2px solid orangered;
+    padding: 4px 8px 4px 8px;
+    
+    
+}
+
+.buttonName{
+    color: white;
+    text-decoration: none;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    padding: 8px 12px 8px 12px;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+

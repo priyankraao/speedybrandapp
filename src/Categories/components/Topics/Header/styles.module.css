@@ -1,0 +1,24 @@
+.homeHeader {
+    text-align: center;
+  }
+  
+  .homeHeader h2 {
+    color: #fe5829;
+    font-size: 2rem;
+  }
+  
+  .homeHeader h1 {
+    font-size: 3rem;
+    color: #fe5829;
+    margin-bottom: 1rem;
+  }
+  
+  .homeHeader h1 span {
+    color: #fe5829;
+  }
+  
+  .homeHeader p {
+    color: #a9a9a9;
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,99 @@
+.tabs {
+    width: 100%;
+  }
+  
+  .tabList {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+
+  
+  .activeTab {
+    padding: 10px 20px;
+    background-color: hwb(15 92% 2%);
+    color: orangered;
+    border-bottom: 3px solid orangered;
+    border-radius: 4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+  }
+  
+  .tabContent {
+    margin-top: 10px;
+  }
+
+  .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: blue;
+    transition: left 0.3s ease;
+  }
+
+  .buttonWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* .button{
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    padding: 8px 12px 8px 12px;
+    border-radius: 4px;
+    margin-right: 16px;
+  } */
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 201px;
+    border: none;
+    background:orangered;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .lable {
+    line-height: 22px;
+    font-size: 17px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button:hover {
+    background:orangered;
+  }
+  
+  .button:hover .svgIcon {
+    animation: slope 1s linear infinite;
+  }
+  
+  @keyframes slope {
+    0% {
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+    }
+  }
+  

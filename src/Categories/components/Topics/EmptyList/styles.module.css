@@ -1,0 +1,10 @@
+.emptyListWrap {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .emptyListWrap img {
+    max-width: 250px;
+    width: 100%;
+  }
+  

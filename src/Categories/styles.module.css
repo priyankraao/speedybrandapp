@@ -1,0 +1,22 @@
+.container{
+    height: 100%;
+    width: 98%;
+   margin: 4px;
+   padding: 8px;
+   height: 100vh;
+}
+
+.title{
+    padding: 16px;
+    display: flex;
+    font-size: 14;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.tableHeader{
+    margin-top: 16px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    padding: 8px;
+}
